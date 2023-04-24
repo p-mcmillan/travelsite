@@ -1,0 +1,118 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* ???when remove margin .main-nav__list floats down??? */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  width: 100vw;
+  /* height: 5vh; */
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+}
+
+.main-nav {
+  position: fixed;
+  padding-right: 5rem;
+  /* display: flex; */
+}
+
+.main-nav__item--logo {
+  margin-right: auto;
+  color: #335576;
+  font-weight: bold;
+  padding-left: 5rem;
+  text-decoration: none;
+}
+
+.main-nav__list {
+  /* list-style: none; */
+}
+
+.main-nav__item {
+  list-style: none;
+  display: inline-block;
+  /* FIND OUT THE REAL PADDING SIZE */
+  padding: 0 1rem;
+}
+
+.main-nav__links {
+  text-decoration: none;
+  color: black;
+}
+.main-nav__links--active {
+  border-bottom-style: solid;
+  border-bottom-color: #db7a4e;
+  text-decoration: none;
+  color: black;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fefaf5;
+}
+
+.footer__container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.footer__list {
+}
+.footer__heading {
+  color: #335576;
+  margin: 1rem;
+}
+
+.footer__heading--social {
+  margin-bottom: 2rem;
+}
+
+.footer__list--hours {
+  display: flex;
+}
+
+.footer__content {
+  margin: 0 1rem;
+}
+
+.footer__item--subtitle {
+  color: #db7a4e;
+  margin: 1rem 0;
+
+  font-size: 0.7rem;
+}
+
+.footer__item--link {
+  text-decoration: none;
+  color: #335576;
+}
+
+.footer__item--time {
+  color: #335576;
+}
+
+.footer__icon {
+  min-width: 2rem;
+  max-width: 2rem;
+  margin-right: 2rem;
+}
+
+.footer__icon--fb {
+  max-width: 2rem;
+  max-height: 2rem;
+  margin-right: 2rem;
+}
